@@ -104,7 +104,7 @@ let trueLen = len.replace(/ /g,'');
  };
  
  
- const change4 = document.getElementById("toTranslateBinaryOut").innerHTML = decimaltoWords.join(' ');
+ const change4 = document.getElementById("toTranslateBinaryOut").innerHTML = decimaltoWords.join('');
 console.log(numbersToDecimal);
 console.log(decimaltoWords);
 
