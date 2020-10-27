@@ -33,6 +33,10 @@ function stringToCharCode(a) {
  for(let i=0; i<toBinary.length; i++) {
 
     trueBinary.push(toBinary[i].toString(2)); 
+    
+    if (trueBinary[i].length == 6) {
+       trueBinary[i] = null;
+    };    
 
  };
 //osemkowy
